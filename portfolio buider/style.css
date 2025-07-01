@@ -1,0 +1,105 @@
+/* style.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8f9fa;
+    color: #f68726;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 32px 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2d6cdf;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+/* Section titles */
+section h2 {
+    color: #2d6cdf;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+}
+
+/* About section */
+#about {
+    margin-bottom: 32px;
+}
+
+/* Contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+form label {
+    font-weight: 500;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+form textarea {
+    min-height: 80px;
+}
+
+form button {
+    background: #2d6cdf;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button:hover {
+    background: #1a4fa0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 16px 6px;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+}
