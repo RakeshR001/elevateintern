@@ -1,0 +1,6 @@
+2025-07-23 17:31:17.597814 - ethereum alert sent at price: INR317385
+2025-07-23 17:36:49.368556 - ethereum alert sent at price: INR317369
+2025-07-23 17:37:53.946745 - ethereum alert sent at price: INR317328
+2025-07-23 17:38:57.852573 - ethereum alert sent at price: INR317285
+2025-07-23 17:40:02.937792 - ethereum alert sent at price: INR317236
+2025-07-23 17:41:06.757055 - ethereum alert sent at price: INR317156
